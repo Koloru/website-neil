@@ -1,8 +1,12 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
+import { Raleway } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const raleway = Raleway({ subsets: ["latin"] });
 
 export default function Home() {
-	return <main className='h-full'>hello</main>;
+	return (
+		<main className={`flex justify-center h-full ${raleway.className}`}>
+			hello
+		</main>
+	);
 }
