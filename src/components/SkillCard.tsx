@@ -1,5 +1,7 @@
 import React from "react";
 
+import { BsChevronDown } from "react-icons/bs";
+
 import { tech } from "@/types/types";
 
 const SkillCard = ({ name, icon, libraries }: tech) => {
@@ -9,10 +11,11 @@ const SkillCard = ({ name, icon, libraries }: tech) => {
 			<div className='relative flex items-end h-full transition-transform transform bg-white border-4 border-sunglow group-hover:-translate-x-2 group-hover:-translate-y-2'>
 				{/* Front of card */}
 				<div className='flex flex-col items-center justify-center w-full h-full gap-2 p-4 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8'>
-					<div className='text-xl font-thin tracking-widest text-olive'>
+					<div className='flex flex-col items-center gap-4 text-xl font-thin tracking-widest text-olive'>
 						{name}
+						{icon}
+						<BsChevronDown className='mt-4' />
 					</div>
-					{icon}
 				</div>
 
 				{/* back of card */}

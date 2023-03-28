@@ -3,9 +3,10 @@ import Section from "./Section";
 
 import SkillCard from "./SkillCard";
 
-import { MdHtml, MdCss } from "react-icons/md";
 import {
 	SiJavascript,
+	SiHtml5,
+	SiCss3,
 	SiPug,
 	SiTailwindcss,
 	SiSass,
@@ -20,7 +21,7 @@ const Skills = () => {
 	const data: tech[] = [
 		{
 			name: "HTML",
-			icon: <MdHtml size={50} />,
+			icon: <SiHtml5 size={50} />,
 			libraries: [
 				{
 					name: "Pug",
@@ -31,7 +32,7 @@ const Skills = () => {
 		},
 		{
 			name: "CSS",
-			icon: <MdCss size={50} />,
+			icon: <SiCss3 size={50} />,
 			libraries: [
 				{
 					name: "Tailwind CSS",
@@ -54,11 +55,6 @@ const Skills = () => {
 			name: "Javascript",
 			icon: <SiJavascript size={50} />,
 			libraries: [
-				{
-					name: "Next.js",
-					icon: <MdHtml size={50} />,
-					link: "https://nextjs.org/",
-				},
 				{
 					name: "React",
 					icon: <SiReact size={50} />,
