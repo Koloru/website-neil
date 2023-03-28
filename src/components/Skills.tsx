@@ -73,7 +73,7 @@ const Skills = () => {
 	];
 	return (
 		<Section title='Things I use' bg='bg-olive'>
-			<div className='flex flex-col flex-grow gap-2 md:flex-row'>
+			<div className='flex flex-col flex-grow gap-2 p-4 md:flex-row'>
 				{data.map((tech) => (
 					<SkillCard
 						key={tech.name}

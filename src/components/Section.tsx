@@ -10,7 +10,7 @@ const Section = ({
 	bg: string;
 }) => {
 	return (
-		<div className={`relative flex w-full p-4 pt-8 ${bg}`}>
+		<div className={`relative flex w-full pt-8 ${bg}`}>
 			<SectionTitle title={title} />
 			{children}
 		</div>
