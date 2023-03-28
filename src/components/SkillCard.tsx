@@ -17,7 +17,7 @@ const SkillCard = ({ name, icon, libraries }: tech) => {
 
 				{/* back of card */}
 				<div className='absolute w-full h-full p-4 transition-opacity opacity-0 group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8'>
-					<div className='flex flex-col items-center justify-center w-full h-full gap-6 overflow-y-scroll'>
+					<div className='flex flex-col flex-wrap items-center justify-around w-full h-full gap-6 overflow-y-scroll'>
 						{libraries.map((lib) => (
 							<a
 								href={lib.link}

@@ -12,6 +12,7 @@ import {
 	SiStylus,
 	SiReact,
 	SiVuedotjs,
+	SiNextdotjs,
 } from "react-icons/si";
 import { tech } from "@/types/types";
 
@@ -67,6 +68,11 @@ const Skills = () => {
 					name: "Vue",
 					icon: <SiVuedotjs size={50} />,
 					link: "https://vuejs.org/",
+				},
+				{
+					name: "next",
+					icon: <SiNextdotjs size={50} />,
+					link: "https://nextjs.org/",
 				},
 			],
 		},
