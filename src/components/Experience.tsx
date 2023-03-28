@@ -25,7 +25,7 @@ const Experience = () => {
 	];
 	return (
 		<Section title='Experience' bg='bg-sunglow'>
-			<div className='flex flex-col flex-wrap items-center justify-center flex-grow gap-2 px-8 md:flex-row'>
+			<div className='flex flex-col flex-wrap items-center justify-center flex-grow gap-2 px-8 pb-4 md:flex-row'>
 				{data.map((company) => (
 					<Company key={company.name} {...company} />
 				))}
