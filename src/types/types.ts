@@ -12,3 +12,11 @@ export interface tech {
 	icon: ReactNode;
 	libraries: library[];
 }
+
+export interface company {
+	name: string;
+	location: string;
+	title: string;
+	period: string;
+	tasks: string[];
+}
