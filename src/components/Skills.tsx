@@ -3,7 +3,8 @@ import Section from "./Section";
 
 import SkillCard from "./SkillCard";
 
-import { MdHtml } from "react-icons/md";
+import { MdHtml, MdCss } from "react-icons/md";
+import { SiJavascript } from "react-icons/si";
 import { tech } from "@/types/types";
 
 const Skills = () => {
@@ -20,13 +21,13 @@ const Skills = () => {
 			],
 		},
 		{
-			name: "HTML",
-			icon: <MdHtml size={50} />,
+			name: "CSS",
+			icon: <MdCss size={50} />,
 			libraries: [],
 		},
 		{
-			name: "HTML",
-			icon: <MdHtml size={50} />,
+			name: "Javascript",
+			icon: <SiJavascript size={50} />,
 			libraries: [],
 		},
 	];
