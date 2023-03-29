@@ -20,6 +20,9 @@ module.exports = {
 				neonblue: "#4361ee",
 				rose: "#f72585",
 			},
+			screens: {
+				xs: { max: "330px" },
+			},
 		},
 	},
 	plugins: [require("tailwindcss-debug-screens")],

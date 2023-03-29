@@ -2,7 +2,7 @@ import { AiFillGithub, AiFillMail, AiFillPhone } from "react-icons/ai";
 
 const Contact = () => {
 	return (
-		<ol className='flex justify-between text-xs'>
+		<ol className='flex flex-wrap items-center justify-center gap-4 text-xs text-center md:justify-between'>
 			<a href='tel:0977-3900-529'>
 				<li className='flex items-center gap-2 cursor-pointer hover:text-sunglow'>
 					<AiFillPhone />
@@ -22,7 +22,7 @@ const Contact = () => {
 				</li>
 			</a>
 			<a href='koloru.dev' target='_blank'>
-				<li className='flex items-center gap-2 cursor-pointer hover:text-sunglow'>
+				<li className='flex items-center gap-2 text-xl cursor-pointer md:text-xs hover:text-sunglow'>
 					koloru.dev
 				</li>
 			</a>
