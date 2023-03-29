@@ -22,6 +22,13 @@ const Experience = () => {
 			period: "Nov 2022 - Present",
 			tasks: ["Create User Interfaces from Figma Designs"],
 		},
+		{
+			name: "FEU - Institute of Technology",
+			location: "Manila, Philippines",
+			title: "BSIT - Digital Arts Student (Batch 2014)",
+			period: "2014 - 2020",
+			tasks: ["Graduated in the year 2020"],
+		},
 	];
 	return (
 		<Section title='Experience' bg='bg-sunglow'>
