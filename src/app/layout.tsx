@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Raleway } from "next/font/google";
 
 import "./globals.css";
